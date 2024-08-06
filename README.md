@@ -46,7 +46,17 @@ InstagramなどのSNSやHPなどでサービスを届ける
 ・通報機能（ボタン）
 
 ## 機能の実装方針予定
-機能候補はRuby on rails で実装予定
+開発環境：Docker
+サーバーサイド: Ruby on Rails 7系
+               Ruby 3.2.2 Rails 7.0.4.3
+フロンドエンド: HotWire
+CSSフレームワーク: bootstrap5系
+インフラ:
+・Webアプリケーションサーバ: Fly.io
+その他:
+VCS: Github
+CI/CD: GithubActions
+
 
 ## 追加サービス案（MVPリリース後）
 写真の項目（ポートレート・風景（海・山など））を作成したうえで色んな人がグループを作成
